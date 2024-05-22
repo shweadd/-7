@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="lib/style.css">
+<script src="lib/script.js"></script>
+</head>
+<body>
+<div class="textcols">
+<div class="textcols-item">
+<img
+src="https://sun9-33.userapi.com/impg/0ps_DEBAGEJcc98DBLSiXHsjU7a8h0OuDEpC0Q/HW_BiIz0eLw.jpg?size=960x1280&quality=95&sign=8c57b18d385f5ef8994b88124c768950&type=album" width="162" height="216" alt="не удалось загрузить фото">
+</body>
+<p><b>Контакты</b><br>📞+79201315553<br>
+<br> 📍г. Ярославль</p>
+<p><b>Языки</b><br> Английский ⚫⚫⚫○ ○</p>
+<p><b>Направления, которые наиболее интересны
+</b><br<br>Искуственный интеллект<br>💻Информационная безопасность</p>
+<p><b>Какие проофессии хотела бы освоить </b><br>✅Веб-разработчик<br>
+✅Аналитик данных<br>✅DevOps-инженер</p>
+<p><b>Хобби</b><br>Автомобили<br>Спорт</p>
+</div>
+<div class="textcols-item">
+<p> <b>О себе</b><br>Делаем проект, учусь и параллельно работаю, общителен.
+</p>
+<p><b>Образование</b><br> 🎓ЯГТУ 09.03.04
+“Программная инженерия” ‘27</p>
+<p><b>Навыки</b><br>Публичные выступления<br> Грамотная речь<br> Участие в
+проектах<br>Умение брать ответственность<br><br>Microsoft Office<br> Excel<br> PowerPoint </p>
+<p><b>Изучаемые языки</b><br>Pascal<br> Python <br> C++</p>
+</div>
+</div>
+</html>
+
+
+body{
+background-color: rgb(145, 124, 124);
+}
+p{
+font-size: 10 px;
+border: 3px solid black;
+}
+.textcols {
+white-space: nowrap;
+}
+.textcols-item {
+white-space: normal;
+display: inline-block;
+width: 48%;
+vertical-align: top;
+}
+.textcols .textcols-item:first-child {
+margin-right: 4%;
+}
