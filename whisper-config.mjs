@@ -1,7 +1,18 @@
+import os from "node:os";
 import path from "node:path";
 
-// Where to install Whisper.cpp to
-export const WHISPER_PATH = path.join(process.cwd(), "whisper.cpp");
+// Where to install Whisper.cpp to.
+// Общий кэш в домашней папке: Whisper.cpp и модели качаются один раз на компьютер,
+// а не заново в каждый клон проекта. Переопределяется переменной REELS_WHISPER_PATH.
+export const WHISPER_PATH =
+  process.env.REELS_WHISPER_PATH ??
+  path.join(os.homedir(), ".cache", "reels-whisper", "whisper.cpp");
+
+// Сколько потоков CPU отдать Whisper (по умолчанию whisper.cpp берёт только 4).
+export const WHISPER_THREADS = Math.max(
+  1,
+  Math.min(8, os.availableParallelism?.() ?? os.cpus().length),
+);
 
 // The version of Whisper.cpp to install
 export const WHISPER_VERSION = "1.6.0";

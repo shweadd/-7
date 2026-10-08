@@ -12,6 +12,7 @@ import {
   WHISPER_LANG,
   WHISPER_MODEL,
   WHISPER_PATH,
+  WHISPER_THREADS,
   WHISPER_VERSION,
 } from "./whisper-config.mjs";
 import {
@@ -47,6 +48,7 @@ const subFile = async (filePath, fileName, folder) => {
     translateToEnglish: false,
     language: WHISPER_LANG,
     splitOnWord: true,
+    additionalArgs: ["-t", String(WHISPER_THREADS)],
   });
 
   const { captions } = toCaptions({

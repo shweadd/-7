@@ -1,0 +1,170 @@
+{
+  "format": "skip-read-study",
+  "video": "sample-video.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "trimStartSec": 0.25,
+  "endSec": 11.966,
+  "music": null,
+  "musicStartSec": 1,
+  "musicVolume": 0.15,
+  "hands": {
+    "x": 0.5,
+    "y": 0.7,
+    "width": 0.3
+  },
+  "books": [
+    {
+      "title": "Rich Dad Poor Dad",
+      "cover": null,
+      "column": "skip",
+      "appearSec": 0.4,
+      "verdictSec": 2.22
+    },
+    {
+      "title": "Zero to One",
+      "cover": null,
+      "column": "read",
+      "appearSec": 2.8,
+      "verdictSec": 4.26
+    },
+    {
+      "title": "Breakthrough Advertising",
+      "cover": null,
+      "column": "study",
+      "appearSec": 7.6,
+      "verdictSec": 9.03
+    }
+  ],
+  "captions": [
+    {
+      "text": " I",
+      "startMs": 4260,
+      "endMs": 4620,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " give",
+      "startMs": 4620,
+      "endMs": 4980,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " it",
+      "startMs": 4980,
+      "endMs": 5340,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " to",
+      "startMs": 5340,
+      "endMs": 5700,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " every",
+      "startMs": 5700,
+      "endMs": 6060,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " founder",
+      "startMs": 6060,
+      "endMs": 6420,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " I",
+      "startMs": 6420,
+      "endMs": 6780,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " hire.",
+      "startMs": 6780,
+      "endMs": 7140,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " The",
+      "startMs": 9030,
+      "endMs": 9360,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " holy",
+      "startMs": 9360,
+      "endMs": 9690,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " grail.",
+      "startMs": 9690,
+      "endMs": 10020,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " I",
+      "startMs": 10020,
+      "endMs": 10350,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " paid",
+      "startMs": 10350,
+      "endMs": 10680,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " $500",
+      "startMs": 10680,
+      "endMs": 11010,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " for",
+      "startMs": 11010,
+      "endMs": 11340,
+      "timestampMs": null,
+      "confidence": 0.9
+    },
+    {
+      "text": " mine.",
+      "startMs": 11340,
+      "endMs": 11670,
+      "timestampMs": null,
+      "confidence": 0.9
+    }
+  ],
+  "zooms": [
+    {
+      "startSec": 4.26,
+      "endSec": 7.14
+    },
+    {
+      "startSec": 10.02,
+      "endSec": 11.67
+    }
+  ],
+  "face": {
+    "x": 0.3369990719689263,
+    "y": 0.27989977300167085,
+    "width": 0.3448693752288818,
+    "height": 0.3493091493844986
+  }
+}

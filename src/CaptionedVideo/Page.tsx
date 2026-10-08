@@ -26,7 +26,8 @@ const HIGHLIGHT_COLOR = "#39E508";
 export const Page: React.FC<{
   readonly enterProgress: number;
   readonly page: TikTokPage;
-}> = ({ enterProgress, page }) => {
+  readonly bottom?: number;
+}> = ({ enterProgress, page, bottom }) => {
   const frame = useCurrentFrame();
   const { width, fps } = useVideoConfig();
   const timeInMs = (frame / fps) * 1000;
@@ -42,7 +43,9 @@ export const Page: React.FC<{
   const fontSize = Math.min(DESIRED_FONT_SIZE, fittedText.fontSize);
 
   return (
-    <AbsoluteFill style={container}>
+    <AbsoluteFill
+      style={bottom === undefined ? container : { ...container, bottom }}
+    >
       <div
         style={{
           fontSize,

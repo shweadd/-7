@@ -6,22 +6,25 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@remotion/cli": "4.0.534",
-    "@remotion/zod-types": "4.0.534",
     "@remotion/animation-utils": "4.0.534",
+    "@remotion/cli": "4.0.534",
     "@remotion/layout-utils": "4.0.534",
     "@remotion/media-utils": "4.0.534",
+    "@remotion/zod-types": "4.0.534",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.534",
     "zod": "4.5.4"
   },
   "devDependencies": {
+    "@remotion/captions": "4.0.534",
     "@remotion/eslint-config-flat": "4.0.534",
     "@remotion/install-whisper-cpp": "4.0.534",
-    "@remotion/captions": "4.0.534",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.22.0",
     "@types/react": "19.2.7",
     "@types/web": "0.0.166",
+    "@vladmandic/face-api": "^1.7.15",
     "eslint": "9.39.5",
     "prettier": "3.8.1",
     "typescript": "5.9.3"
@@ -31,6 +34,8 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
-    "create-subtitles": "node sub.mjs"
+    "create-subtitles": "node sub.mjs",
+    "reel": "node scripts/reel.mjs",
+    "covers": "node scripts/fetch-covers.mjs"
   }
 }
