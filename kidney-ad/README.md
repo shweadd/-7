@@ -12,6 +12,11 @@ Vertical (9:16) dialogue ad: **Bad Kidney** vs **Good Kidney**, English, ~2:50 t
 - Vertical 9:16, cheapest model that still does native audio + lip-sync, 720p, one variant per clip.
 - No test generations. Confirm parameters with the user before spending credits.
 
+## Voices
+
+- **Bad Kidney:** tired, slightly hoarse young adult male American English voice (clip 01 approved).
+- **Good Kidney:** warm, pleasant, friendly young adult female American English voice, clear and calm.
+
 ## Kling setup
 
 - Model: `kling-video-v3_0` (image-to-video, native audio, Elements). The cheaper `v3_0_turbo` has no audio.
