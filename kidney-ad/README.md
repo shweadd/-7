@@ -10,6 +10,8 @@ Vertical (9:16) dialogue ad: **Bad Kidney** vs **Good Kidney**, English, ~2:50 t
 - Two distinct, consistent English voices (one per character) across all clips.
 - Minimal motion: static camera, small natural head/eye movement, no extra gestures.
 - Vertical 9:16, cheapest model that still does native audio + lip-sync, 720p, one variant per clip.
+- Never rewrite the user's lines. Use the exact text the user sends for each clip.
+- Every prompt is one copy-paste block; hard rules (no on-screen text, no subtitles, no music, no SFX, only the speaker's voice, no extra characters) go at the very start.
 - No test generations. Confirm parameters with the user before spending credits.
 
 ## Voices
