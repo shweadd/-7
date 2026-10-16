@@ -70,3 +70,19 @@ No music, no sound effects, no other voices, no subtitles, no on-screen text.
 
 Never mention a listener, "someone", or "off-screen" — Kling draws them into the frame
 (clip 01, first take: a human appeared on the right edge).
+
+## Current script, lines 1–10 (replaces the table above for clips 1–10)
+
+| # | Speaker | Line | Dur |
+|---|---|---|---|
+| 1 | Bad | Bro, there is foam in my guy's toilet every single morning and he has no idea why. | 7 |
+| 2 | Good | That is not a hydration problem, man. That is you leaking. | 5 |
+| 3 | Bad | So what is actually happening to me? | 4 |
+| 4 | Good | You are getting destroyed from the inside, man, by a molecule called the hydroxyl radical. | 7 |
+| 5 | Bad | The what? | 3 |
+| 6 | Good | Hydroxyl radical. It is basically acid inside your kidney cells. It is burning through your nephrons every single day. Those nephrons are the tiny filters that clean the blood. | 13 |
+| 7 | Bad | So that is why there is foam, swelling, exhaustion, all from those filters getting burned. | 7 |
+| 8a | Good | All of it. When your filters leak, protein shows up in his urine. That is the foam. | 7 |
+| 8b | Good | When you cannot pull fluid out of his body, that is the swelling. And when you cannot clean his blood properly, he feels tired all the time. | 10 |
+| 9 | Bad | So if he just drinks more water? | 4 |
+| 10 | Good | Water flows right through the damage, man. It does not repair anything. | 5 |
