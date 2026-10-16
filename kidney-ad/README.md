@@ -53,11 +53,13 @@ Durations are estimates (~2.6 words/s plus a short pause). Lines longer than 15 
 ## Prompt template
 
 ```
-Vertical 9:16, static camera, no camera movement. <<<SPEAKER>>> speaks directly to <<<LISTENER>>>
-in a <VOICE> American English voice, saying exactly: "<LINE>"
-Precise lip-sync to the words. Only <<<SPEAKER>>> speaks; <<<LISTENER>>> stays silent with mouth
-closed and lips still. Minimal natural head and eye movement, no extra gestures.
-No music, no sound effects, no subtitles, no on-screen text.
+Locked-off static camera, no zoom, no pan, framing exactly as in the image. The cartoon kidney
+character is the only character in the scene; no people, no other characters, nothing new
+enters the frame. It starts speaking immediately at the first second, in a <VOICE> American
+English voice, saying exactly: "<LINE>"
+Precise lip-sync to every word. Minimal natural head and eye movement, no extra gestures.
+No music, no sound effects, no other voices, no subtitles, no on-screen text.
 ```
 
-If the listener is not in the frame, drop the listener sentence.
+Never mention a listener, "someone", or "off-screen" — Kling draws them into the frame
+(clip 01, first take: a human appeared on the right edge).
