@@ -33,3 +33,40 @@ lines that don't fit 8 s are split into consecutive clips on the same image. Tex
 | 20 | 20 | Good | 30-day money-back guarantee. Link is below. | 4 |
 
 26 clips, 166 s, ≈ $8.30. Budget: $10 top-up (≈ $9.50 after fee), ≈ $1.20 left for retakes.
+
+## Storyboard (images)
+
+Images are named after the old clips they were used in:
+К1 Bad open palm (01) · К2 Good plain (02) · К3 Bad with pill bottle (03) · К4 Good, glowing cell above head (04) ·
+К5 Bad spotted, foam + ZZZ inserts (05) · К6 Good, filter left / sick cell right (06) · К7 Bad, glass of water + bottle (07) ·
+К8 Good points at cell, particles, bottle at bottom (08) · К9 Bad healing (09) · К10 Good holding product bottle (10)
+
+| Line | Image | Action |
+|---|---|---|
+| 1 | К1 | talks, tired |
+| 2 | К2 | talks, calm, slight smirk |
+| 3 | К1 | talks, scared, eyes wider |
+| 4 | К4 | cell rotates; flashes alarm light on "hydroxyl radical" |
+| 5 | К1 | "The what?", shocked, brows up |
+| 6a / 6b | К6 | 6a points at sick cell (right); 6b on "nephrons… tiny filters" turns and points at filter (left) |
+| 7 | К5 | pulses; foam insert on "foam", body swells on "swelling", ZZZ on "exhaustion" |
+| 8a / 8b / 8c | К6 / К2 / К2 | 8a points at filter on "filters leak"; 8b, 8c just explains |
+| 9 | К7 | holds glass, hopeful, no pills into water |
+| 10 | К6 | points at filter, shakes head |
+| 11 | К3 | lifts the bottle on "CoQ10 and fish oil" |
+| 12a / 12b | К2 | explains, disapproving |
+| 13 | К3 | pours pills on own head while talking |
+| 14 | К6 | points at sick cell, cell smoulders/pulses |
+| 15 | К1 | tired, hopeful |
+| 16a / 16b | К8 | 16a particles circle and enter the cell; 16b cell clears and glows, soft glow on "zero waste" |
+| 17 | К9 | heals: spots fade, brighter, smiles |
+| 18a / 18b | К10 | 18a holds bottle; 18b slowly extends bottle to camera, yellow particles |
+| 19 | last frame of clip 17 | healthy kidney exhales, smiles |
+| 20 | К10 | bottle close to camera, final |
+
+Optional new images: scared/shocked Bad (3, 5); water pouring through cracked filter (10); Good with pile of pills, waste flying to Bad (12).
+
+## Generation setup
+
+OpenRouter API key goes in the environment secrets as `OPENROUTER_API_KEY` (never in chat). Model `google/veo-3.1-lite`,
+720p, 9:16, audio on, image as first frame. Show the user the cost per clip and wait for "go" before generating.
